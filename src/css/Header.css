@@ -1,0 +1,51 @@
+.header{
+    height:100px;
+    border-bottom: 1px solid grey;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+}
+.populate_db_button,.addRecipe_button{
+    font-size: 28px;
+    border-radius: 5px;
+    margin: auto 0px;
+    cursor: pointer;
+    /* color: black; */
+    /* background-color: rgb(228, 233, 233); */
+    border:3px solid rgb(237, 241, 241);
+    /* border:none; */
+    /* display: none; */
+    color: rgba(96, 12, 149, 0.886);
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+
+
+
+
+}
+.message{
+    font-size: x-large;
+    font-weight: 500;
+    font-weight: bold;
+    /* color: rgb(22, 35, 222); */
+    color: black;
+    color: rgba(96, 12, 149, 0.886);
+
+
+}
+.populate_db_button:hover,.addRecipe_button:hover{
+    box-shadow: 10px 10px 5px 2px rgb(219, 213, 219);
+
+}
+NavLink a{
+    padding: 100px;
+}
+.addRecipe_button.active{
+    color: #e72d8b;
+    font-weight: bold;
+}

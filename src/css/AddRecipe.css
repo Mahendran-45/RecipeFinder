@@ -1,0 +1,120 @@
+.add-recipe{
+    margin:0 auto;
+    font-size: 24px;
+}
+form{
+    border:1px solid black;
+    margin: 100px auto;
+    width:600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.input_field{
+    padding: 10px;
+    font-size: 30px;
+}
+.input_field .name{
+    width: 100%;
+    margin-right: 120px;
+}
+.input_field .description{
+    margin-right: 50px;
+
+}
+.input_field textarea{
+    margin-top: 20px;
+
+}
+.input_field input,textarea{
+    font-size: 30px;
+    border-radius: 10px;
+}
+#description_div{
+display: flex;
+}
+#description_div>label{
+    justify-content: center;
+
+}
+#description_div .description{
+    justify-content: flex-end;
+    height: 100%;
+    margin-top: 40px;
+}
+.ul_added_recipe{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    font-size: 24px;
+    /* margin-left: 30px; */
+    margin-left: 0px;
+
+}
+.li_added_recipe{
+    display: contents;
+}
+.ingredient{
+    padding-left: 20px;
+}
+.quantity{
+    padding-left: 30px;
+}
+.added_recipe{
+    margin-left: -20px;
+}
+.quantity  {
+    margin-right: 80px;
+    margin-left: 0px;
+
+
+}
+.ingredient{
+    margin-right: 73px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.suggestions{
+    background-color: rgb(239, 220, 220);
+    max-height: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    
+    
+}
+.suggestions p:hover{
+    background-color: rgb(242, 238, 238);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.suggestions p{
+    padding: 10px 15px;
+
+
+}
+.add_ingredient{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 200px;
+    width: 30%;
+    border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.add_recipe{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 200px;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px 0px;
+    cursor: pointer;
+    background-color: rgb(11, 90, 216);
+    color: white;
+    border: none;
+
+}
